@@ -1,0 +1,97 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+
+    
+
+    {
+      "name": "favorite_places",
+      "cwd": "favorite_places",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "expense_tracker",
+      "cwd": "expense_tracker",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "expense_tracker (profile mode)",
+      "cwd": "expense_tracker",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "expense_tracker (release mode)",
+      "cwd": "expense_tracker",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "meal",
+      "cwd": "meal",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "meal (profile mode)",
+      "cwd": "meal",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "meal (release mode)",
+      "cwd": "meal",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "my_app",
+      "cwd": "my_app",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "my_app (profile mode)",
+      "cwd": "my_app",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "my_app (release mode)",
+      "cwd": "my_app",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "quizz",
+      "cwd": "quizz",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "quizz (profile mode)",
+      "cwd": "quizz",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "quizz (release mode)",
+      "cwd": "quizz",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    }
+  ]
+}
