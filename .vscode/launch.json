@@ -5,6 +5,7 @@
   "version": "0.2.0",
   "configurations": [
 
+
     
 
     {
@@ -32,6 +33,12 @@
       "request": "launch",
       "type": "dart",
       "flutterMode": "release"
+    },
+    {
+      "name": "chat_app",
+      "cwd": "chat_app",
+      "request": "launch",
+      "type": "dart"
     },
     {
       "name": "meal",
