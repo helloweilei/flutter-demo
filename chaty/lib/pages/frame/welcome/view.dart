@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:get/get.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class WelcomeView extends GetView<WelcomeController> {
   const WelcomeView({super.key});
@@ -10,14 +11,17 @@ class WelcomeView extends GetView<WelcomeController> {
   Widget _buildHeaderTitle(String title) {
     return Text(title,
         textAlign: TextAlign.center,
-        style: const TextStyle(
-            color: Colors.black, fontWeight: FontWeight.bold, fontSize: 45));
+        style: TextStyle(
+            color: Colors.pinkAccent,
+            fontWeight: FontWeight.bold,
+            fontSize: 45.sp));
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(child: _buildHeaderTitle(controller.title)),
+      body:
+          Container(child: Center(child: _buildHeaderTitle(controller.title))),
     );
   }
 }

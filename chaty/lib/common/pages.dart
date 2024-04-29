@@ -7,7 +7,7 @@ class AppPages {
 
   static final routes = [
     GetPage(
-        name: 'welcome',
+        name: '/welcome',
         binding: WelcomeBinding(),
         page: () => const WelcomeView())
   ];
